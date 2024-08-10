@@ -1,0 +1,39 @@
+.offcanvas {
+  max-width: 200px; /* adjust the value to your desired width */
+}
+.navbar-toggler-icon {
+  height: 20px;
+  width: 23px;
+}
+.navbar-toggler {
+  margin-left: 10%;
+}
+.theme {
+  margin-right: 10%;
+}
+.nav-link {
+  font-weight: 700;
+  font-size: 18px;
+
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.164),
+    5px 5px 15px rgba(1, 58, 34, 0.4);
+  font-size: 16px;
+  color: #080808;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 700;
+  max-width: 100px;
+}
+.nav-link:hover {
+  background-color: rgb(5, 241, 241);
+}
+.offcanvas-title {
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+}
+.offcanvas {
+  background-color: rgb(244, 250, 245);
+}

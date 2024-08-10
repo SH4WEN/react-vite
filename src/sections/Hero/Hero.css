@@ -1,0 +1,27 @@
+.herotext {
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.btn {
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.164),
+    5px 5px 15px rgba(1, 58, 34, 0.4);
+  font-size: 16px;
+
+  cursor: pointer;
+  margin: 10px;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: blue;
+}
+a {
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+}

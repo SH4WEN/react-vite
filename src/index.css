@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+.card-title {
+  font-weight: 800;
+  font-family: "Outfit", sans-serif;
+}
+.card-text {
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+.shadow {
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.164),
+    5px 5px 15px rgba(1, 58, 34, 0.4);
+}

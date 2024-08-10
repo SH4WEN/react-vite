@@ -1,0 +1,33 @@
+.project {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(9, 17, 83, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.4s;
+}
+
+.caption .icon-lg {
+  width: 60px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.caption:hover {
+  opacity: 1;
+  padding-top: 0;
+}
