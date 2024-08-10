@@ -1,5 +1,5 @@
 import React from "react";
-import { accessKey } from "../../../config";
+import { accessKey } from "../../../config.js";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
